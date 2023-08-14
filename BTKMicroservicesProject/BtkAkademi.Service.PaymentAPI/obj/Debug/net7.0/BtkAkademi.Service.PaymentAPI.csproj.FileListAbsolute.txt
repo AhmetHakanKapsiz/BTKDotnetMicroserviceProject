@@ -31,3 +31,9 @@ C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicros
 C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\obj\Debug\net7.0\BtkAkademi.Service.PaymentAPI.pdb
 C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\obj\Debug\net7.0\BtkAkademi.Service.PaymentAPI.genruntimeconfig.cache
 C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\obj\Debug\net7.0\ref\BtkAkademi.Service.PaymentAPI.dll
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\bin\Debug\net7.0\BtkAkademi.MessageBus.dll
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\bin\Debug\net7.0\PaymentProcessor.dll
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\bin\Debug\net7.0\BtkAkademi.MessageBus.pdb
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.PaymentAPI\bin\Debug\net7.0\PaymentProcessor.pdb

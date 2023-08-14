@@ -1,16 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "roXbWsnLp+JqKDIJETNIoXKxnpKzz88ptWNqxS7sRoPBY1f9vDH8O9rWL5pWonrNtQYBIJOY+8G7dZGuuymI0A==",
+  "dgSpecHash": "1K2laTGWZWzypjkNTeU2CXkY/aOoMBqjVBe3F0/KNe0XMhqFiNiXAZZSqizJD9ljTWc9xYgakApc8gWsys2DQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.PaymentAPI\\BtkAkademi.Service.PaymentAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
     "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
