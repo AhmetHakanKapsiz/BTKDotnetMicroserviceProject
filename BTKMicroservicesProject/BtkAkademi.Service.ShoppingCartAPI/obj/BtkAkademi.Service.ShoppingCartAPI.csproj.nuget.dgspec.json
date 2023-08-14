@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\BtkAkademi.Service.ShoppingCartAPI.csproj": {}
+    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\BtkAkademi.Service.ShoppingCartAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\BtkAkademi.Service.ShoppingCartAPI.csproj": {
+    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\BtkAkademi.Service.ShoppingCartAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\BtkAkademi.Service.ShoppingCartAPI.csproj",
+        "projectUniqueName": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\BtkAkademi.Service.ShoppingCartAPI.csproj",
         "projectName": "BtkAkademi.Service.ShoppingCartAPI",
-        "projectPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\BtkAkademi.Service.ShoppingCartAPI.csproj",
+        "projectPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\BtkAkademi.Service.ShoppingCartAPI.csproj",
         "packagesPath": "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\obj\\",
+        "outputPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.ShoppingCartAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

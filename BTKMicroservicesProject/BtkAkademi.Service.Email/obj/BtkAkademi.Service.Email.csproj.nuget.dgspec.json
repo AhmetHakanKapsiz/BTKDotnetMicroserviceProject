@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\BtkAkademi.Service.Email.csproj": {}
+    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\BtkAkademi.Service.Email.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\BtkAkademi.Service.Email.csproj": {
+    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\BtkAkademi.Service.Email.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\BtkAkademi.Service.Email.csproj",
+        "projectUniqueName": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\BtkAkademi.Service.Email.csproj",
         "projectName": "BtkAkademi.Service.Email",
-        "projectPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\BtkAkademi.Service.Email.csproj",
+        "projectPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\BtkAkademi.Service.Email.csproj",
         "packagesPath": "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\obj\\",
+        "outputPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Email\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

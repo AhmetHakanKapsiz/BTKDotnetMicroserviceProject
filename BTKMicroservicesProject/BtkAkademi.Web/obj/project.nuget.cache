@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MfZg0PYEFf2B9Is5NOXztfspw+Di1lsqL9/LYmdL/osI6eoLJNJKqMo8XWmb4nNUmEPUPB5dfL8HENtqkfw5wg==",
+  "dgSpecHash": "r0I/cNbNrybXJCWccDRukzHx22DorzOp2k4QRAOe7XgcZclp0zzrs8tfqxCR6k6YF/NSKPEIceJDYybB114lPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Web\\BtkAkademi.Web.csproj",
+  "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\BtkAkademi.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

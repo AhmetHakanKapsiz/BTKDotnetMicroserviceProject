@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj": {}
+    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj": {
+    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj",
+        "projectUniqueName": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj",
         "projectName": "BtkAkademi.Service.Identity",
-        "projectPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj",
+        "projectPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj",
         "packagesPath": "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\obj\\",
+        "outputPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

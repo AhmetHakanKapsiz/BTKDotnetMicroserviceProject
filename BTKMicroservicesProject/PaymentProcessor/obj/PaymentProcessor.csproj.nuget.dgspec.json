@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj": {}
+    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj": {
+    "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj",
+        "projectUniqueName": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj",
         "projectName": "PaymentProcessor",
-        "projectPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj",
+        "projectPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj",
         "packagesPath": "C:\\Users\\AHMET HAKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\PaymentProcessor\\obj\\",
+        "outputPath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\PaymentProcessor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

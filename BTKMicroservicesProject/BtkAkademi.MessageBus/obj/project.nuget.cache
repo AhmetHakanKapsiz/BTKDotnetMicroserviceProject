@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IgBNaU6cb+nxS7Nposjkq+RFibGHtonUsEIZLXqm09iKVSekNE2rbBgYZt+9tyxPtMNpQ6XJGXF5k6j5WDr1jQ==",
+  "dgSpecHash": "uj/0NH75PgA/DCBlxMlp2YHaDDhlsdsJP1vveQpwQZm2gaHboLK1SXD6nrwqVEad1eODvID5gq8Xfi70KG+nZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.MessageBus\\BtkAkademi.MessageBus.csproj",
+  "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.MessageBus\\BtkAkademi.MessageBus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

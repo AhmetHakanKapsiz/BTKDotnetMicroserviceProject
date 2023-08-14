@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tV9g+9Inh0lPqVfRDLBC8t+3YD5ftMDS7AK2jcwrigM=",
+  "Source": "BtkAkademi.Service.OrderAPI",
+  "BasePath": "_content/BtkAkademi.Service.OrderAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

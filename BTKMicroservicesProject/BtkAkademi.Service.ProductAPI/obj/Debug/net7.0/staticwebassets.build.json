@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dgi24aeh+GtU2PCvBmTxpor22CamGkqlpzqKKhmRAug=",
+  "Source": "BtkAkademi.Service.ProductAPI",
+  "BasePath": "_content/BtkAkademi.Service.ProductAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

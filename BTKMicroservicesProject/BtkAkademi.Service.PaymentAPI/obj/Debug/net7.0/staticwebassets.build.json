@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gFd+K+BryzGDP1Jsprf/S6mva22LJsC0OO51ck1xs7k=",
+  "Source": "BtkAkademi.Service.PaymentAPI",
+  "BasePath": "_content/BtkAkademi.Service.PaymentAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XOO3tD63YREtnENH4fkVGUVEoD9DmlHGBUVrCTHl8WQ=",
+  "Source": "BtkAkademi.Service.Email",
+  "BasePath": "_content/BtkAkademi.Service.Email",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

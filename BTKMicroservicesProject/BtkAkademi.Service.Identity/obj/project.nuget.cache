@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R7vp1Q+qoliN5Mj0wAx4UrDDW+eLR3qEJ9ev3G/ySd8aydph9uEOvW3rGkgfAAUrhJahPVvBZu3LE3R3Mo83+g==",
+  "dgSpecHash": "2Do8EqbpiEgfWZjFjTyAMQeE3myqITYKZ8ilvYiH8x71fXQpcZnYemsD6QRUPu/p5Ad8kCkSPRvA08tZ+TzcDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj",
+  "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Service.Identity\\BtkAkademi.Service.Identity.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

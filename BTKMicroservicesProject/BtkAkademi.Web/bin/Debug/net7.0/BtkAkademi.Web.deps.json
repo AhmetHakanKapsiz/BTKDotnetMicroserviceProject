@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BtkAkademi.Web/1.0.0": {
+        "runtime": {
+          "BtkAkademi.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BtkAkademi.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

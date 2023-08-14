@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Rz6eF194a+Hd0QyS0rwtzR3tvSArww7kMQ/1jdVtt846u5IT6rGdMePc7TbwoR36bZAJ1Bmg9nKZidp7vlYVg==",
+  "dgSpecHash": "OCOo/SV0pgyn5wZDTR/pdq6V1I1l2eJTkDoifMxKi/ILxCCM7KgQ3CDueGT9Px8y9+I0EfSMpeWoOMbzj+IEbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\Final\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj",
+  "projectFilePath": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\PaymentProcessor\\PaymentProcessor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

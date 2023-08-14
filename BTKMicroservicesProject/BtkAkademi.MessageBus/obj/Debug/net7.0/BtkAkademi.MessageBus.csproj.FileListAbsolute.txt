@@ -1,0 +1,12 @@
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\bin\Debug\net7.0\BtkAkademi.MessageBus.deps.json
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\bin\Debug\net7.0\BtkAkademi.MessageBus.dll
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\bin\Debug\net7.0\BtkAkademi.MessageBus.pdb
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\BtkAkademi.MessageBus.csproj.AssemblyReference.cache
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\BtkAkademi.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\BtkAkademi.MessageBus.AssemblyInfoInputs.cache
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\BtkAkademi.MessageBus.AssemblyInfo.cs
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\BtkAkademi.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\BtkAkademi.MessageBus.dll
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\refint\BtkAkademi.MessageBus.dll
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\BtkAkademi.MessageBus.pdb
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.MessageBus\obj\Debug\net7.0\ref\BtkAkademi.MessageBus.dll

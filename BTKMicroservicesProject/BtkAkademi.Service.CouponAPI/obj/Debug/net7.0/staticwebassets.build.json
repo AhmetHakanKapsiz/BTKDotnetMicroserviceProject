@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dS8Y78sLHtWX7ewaeTjvpVrpI9/3+9nmdcITyvSehSA=",
+  "Source": "BtkAkademi.Service.CouponAPI",
+  "BasePath": "_content/BtkAkademi.Service.CouponAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
