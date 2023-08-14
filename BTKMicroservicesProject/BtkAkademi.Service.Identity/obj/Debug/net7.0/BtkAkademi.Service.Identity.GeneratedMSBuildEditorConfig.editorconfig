@@ -12,9 +12,53 @@ build_property.RootNamespace = BtkAkademi.Service.Identity
 build_property.ProjectDir = C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.Identity\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Service.Identity
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Account/LoggedOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dnZWRPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Consent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc2VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Device/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Device/UserCodeCapture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVzZXJDb2RlQ2FwdHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Device/UserCodeConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlXFVzZXJDb2RlQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Diagnostics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlhZ25vc3RpY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Grants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -28,8 +72,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Shared/Redirect.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlZGlyZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Shared/_ScopeListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/Shared/_ValidationSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/AHMET HAKAN/Documents/btkakademi/BTKDotnetMicroserviceProject/BTKMicroservicesProject/BtkAkademi.Service.Identity/Views/_ViewImports.cshtml]

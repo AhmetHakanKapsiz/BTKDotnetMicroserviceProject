@@ -5,12 +5,56 @@
       "PackagePath": "staticwebassets\\BtkAkademi.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\122.png",
+      "PackagePath": "staticwebassets\\Uploads\\122.png"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\euro.png",
+      "PackagePath": "staticwebassets\\Uploads\\euro.png"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\kıran.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\kıran.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\logo.png",
+      "PackagePath": "staticwebassets\\Uploads\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\panertikkar.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\panertikkar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\pavbaji.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\pavbaji.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\sweetpie.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\sweetpie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\uefa-champions-league.gif",
+      "PackagePath": "staticwebassets\\Uploads\\uefa-champions-league.gif"
+    },
+    {
       "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\images\\btk.png",
+      "PackagePath": "staticwebassets\\images\\btk.png"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\images\\order.PNG",
+      "PackagePath": "staticwebassets\\images\\order.PNG"
     },
     {
       "Id": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\js\\site.js",
