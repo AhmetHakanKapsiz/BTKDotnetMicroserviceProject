@@ -528,3 +528,4 @@ C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicros
 C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Web\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Web\obj\Debug\net7.0\BtkAkademi.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Web\obj\Debug\net7.0\BtkAkademi.Web.csproj.CopyComplete
+C:\Users\AHMET HAKAN\Documents\btkakademi\BTKDotnetMicroserviceProject\BTKMicroservicesProject\BtkAkademi.Web\bin\Debug\net7.0\libman.json

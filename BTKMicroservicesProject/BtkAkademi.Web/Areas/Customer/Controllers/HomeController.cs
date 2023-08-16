@@ -103,7 +103,7 @@ namespace BtkAkademi.Web.Areas.Customer.Controllers
             if (role == "Admin")
             {
                 // return Redirect("~/Admin/Yonetici");
-                return RedirectToAction("Git", "Yonetici", new { area = "Admin" });
+                return RedirectToAction("Index", "Yonetici", new { area = "Admin" });
             }
             //buradan IdentityServer daki login sayfasına gidiliyor.
             return RedirectToAction(nameof(Index));

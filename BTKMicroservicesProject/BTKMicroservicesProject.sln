@@ -13,27 +13,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{E293B1D7-B44E-43B9-8209-140AAF4FA422}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.MessageBus", "BtkAkademi.MessageBus\BtkAkademi.MessageBus.csproj", "{A03560E8-D6F5-400E-9F10-8C6014327A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.MessageBus", "BtkAkademi.MessageBus\BtkAkademi.MessageBus.csproj", "{A03560E8-D6F5-400E-9F10-8C6014327A81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentProcessor", "PaymentProcessor\PaymentProcessor.csproj", "{A9DECDCE-14BE-4F5E-8803-52158E554669}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentProcessor", "PaymentProcessor\PaymentProcessor.csproj", "{A9DECDCE-14BE-4F5E-8803-52158E554669}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.GatewaySolution", "BtkAkademi.GatewaySolution\BtkAkademi.GatewaySolution.csproj", "{F808296E-B87A-446D-A916-E74659D80BCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.GatewaySolution", "BtkAkademi.GatewaySolution\BtkAkademi.GatewaySolution.csproj", "{F808296E-B87A-446D-A916-E74659D80BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Web", "BtkAkademi.Web\BtkAkademi.Web.csproj", "{6EB2D318-0034-4808-8308-16538AA99B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.Web", "BtkAkademi.Web\BtkAkademi.Web.csproj", "{6EB2D318-0034-4808-8308-16538AA99B67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Service.OrderAPI", "BtkAkademi.Service.OrderAPI\BtkAkademi.Service.OrderAPI.csproj", "{75FCA1BA-9721-46BF-8495-A10626BE76CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.Service.OrderAPI", "BtkAkademi.Service.OrderAPI\BtkAkademi.Service.OrderAPI.csproj", "{75FCA1BA-9721-46BF-8495-A10626BE76CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Service.CouponAPI", "BtkAkademi.Service.CouponAPI\BtkAkademi.Service.CouponAPI.csproj", "{05A6D897-4014-4E64-A181-5688D1447B4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.Service.CouponAPI", "BtkAkademi.Service.CouponAPI\BtkAkademi.Service.CouponAPI.csproj", "{05A6D897-4014-4E64-A181-5688D1447B4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Service.Email", "BtkAkademi.Service.Email\BtkAkademi.Service.Email.csproj", "{5A0766F1-A1AA-44B1-A149-2D3C1743C598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.Service.Email", "BtkAkademi.Service.Email\BtkAkademi.Service.Email.csproj", "{5A0766F1-A1AA-44B1-A149-2D3C1743C598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Service.PaymentAPI", "BtkAkademi.Service.PaymentAPI\BtkAkademi.Service.PaymentAPI.csproj", "{35C863A1-58EE-425B-8333-65F656F3C7E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.Service.PaymentAPI", "BtkAkademi.Service.PaymentAPI\BtkAkademi.Service.PaymentAPI.csproj", "{35C863A1-58EE-425B-8333-65F656F3C7E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Service.ProductAPI", "BtkAkademi.Service.ProductAPI\BtkAkademi.Service.ProductAPI.csproj", "{0E4B94A6-5025-49CC-94E2-3C9AD14A8FEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.Service.ProductAPI", "BtkAkademi.Service.ProductAPI\BtkAkademi.Service.ProductAPI.csproj", "{0E4B94A6-5025-49CC-94E2-3C9AD14A8FEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Service.ShoppingCartAPI", "BtkAkademi.Service.ShoppingCartAPI\BtkAkademi.Service.ShoppingCartAPI.csproj", "{43F394F7-67ED-43B6-A7BF-29D2A6C25C09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.Service.ShoppingCartAPI", "BtkAkademi.Service.ShoppingCartAPI\BtkAkademi.Service.ShoppingCartAPI.csproj", "{43F394F7-67ED-43B6-A7BF-29D2A6C25C09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Service.Identity", "BtkAkademi.Service.Identity\BtkAkademi.Service.Identity.csproj", "{32220127-EFBB-42F7-ACD7-02C19D1204DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademi.Service.Identity", "BtkAkademi.Service.Identity\BtkAkademi.Service.Identity.csproj", "{32220127-EFBB-42F7-ACD7-02C19D1204DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademi.Service.MessageAPI", "BtkAkademi.Service.MessageAPI\BtkAkademi.Service.MessageAPI.csproj", "{0E5589E2-BEC0-4BB2-91FA-B3B769DA2C23}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{32220127-EFBB-42F7-ACD7-02C19D1204DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32220127-EFBB-42F7-ACD7-02C19D1204DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32220127-EFBB-42F7-ACD7-02C19D1204DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E5589E2-BEC0-4BB2-91FA-B3B769DA2C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5589E2-BEC0-4BB2-91FA-B3B769DA2C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5589E2-BEC0-4BB2-91FA-B3B769DA2C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5589E2-BEC0-4BB2-91FA-B3B769DA2C23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +107,7 @@ Global
 		{0E4B94A6-5025-49CC-94E2-3C9AD14A8FEC} = {5B244AB0-B8C1-445E-BC61-0CDE5B4D3BC7}
 		{43F394F7-67ED-43B6-A7BF-29D2A6C25C09} = {5B244AB0-B8C1-445E-BC61-0CDE5B4D3BC7}
 		{32220127-EFBB-42F7-ACD7-02C19D1204DC} = {5B244AB0-B8C1-445E-BC61-0CDE5B4D3BC7}
+		{0E5589E2-BEC0-4BB2-91FA-B3B769DA2C23} = {5B244AB0-B8C1-445E-BC61-0CDE5B4D3BC7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0A79135-7404-48EC-B530-8DE2DC18774C}

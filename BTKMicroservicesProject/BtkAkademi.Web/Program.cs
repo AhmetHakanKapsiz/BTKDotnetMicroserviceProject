@@ -2,6 +2,7 @@ using BtkAkademi.Web.Services.IServices;
 using BtkAkademi.Web.Services;
 using BtkAkademi.Web;
 using Microsoft.AspNetCore.Authentication;
+using BtkAkademi.Web.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,7 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<ICouponService, CouponService>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddSignalR();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -58,6 +60,7 @@ app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
 {
+    endpoints.MapHub<MessageHub>("/messagehub");
     endpoints.MapControllerRoute(
         name: "default",
         pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");

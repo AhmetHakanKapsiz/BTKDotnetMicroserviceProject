@@ -105,7 +105,7 @@ namespace BtkAkademi.Service.ShoppingCartAPI.Controllers
             paymentCard.ExpireYear = checkoutHeaderDto.ExpiryYear;
             paymentCard.Cvc = checkoutHeaderDto.CVV;
             paymentCard.RegisterCard = 0;
-            paymentCard.CardAlias = "Infotech";
+            paymentCard.CardAlias = "BtkAkademi";
             request.PaymentCard = paymentCard;
 
             Buyer buyer = new Buyer();

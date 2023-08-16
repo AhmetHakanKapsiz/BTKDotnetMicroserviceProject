@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PIRWgwcaHn3X8zOW+IKQsFHg5f51H7WKqkDvVXGNWmc=",
+  "Source": "BtkAkademi.Service.MessageAPI",
+  "BasePath": "_content/BtkAkademi.Service.MessageAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
