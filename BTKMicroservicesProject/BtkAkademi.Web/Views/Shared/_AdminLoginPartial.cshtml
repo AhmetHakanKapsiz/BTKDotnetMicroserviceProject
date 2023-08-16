@@ -25,6 +25,15 @@
 			<a class="nav-link" asp-area="Admin" asp-controller="Yonetici" asp-action="AdminLogout">Çıkış Yap </a>
 		</li>
 	}
+	else if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+	{
+		<li class="nav-item">
+			<a class="nav-link">@User.Identity.Name</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Logout">Logout</a>
+		</li>
+	}
 	else
 	{
 		<li class="nav-item">

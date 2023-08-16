@@ -1,6 +1,14 @@
 ﻿@model BtkAkademi.Web.Models.CartDto
 
-@if (Model.CartHeader != null & Model.CartDetails.Count() > 0)
+@if (Model.CartHeader == null || Model.CartDetails == null)
+{
+    <div>
+        <p>Please add items to cart.</p>
+    </div>
+    return;
+}
+
+@if (Model.CartDetails.Count() > 0)
 {
 
     <form method="post">
@@ -100,10 +108,4 @@
             </div>
         </div>
     </form>
-}
-else
-{
-    <div>
-        <p>Please add items to cart.</p>
-    </div>
 }

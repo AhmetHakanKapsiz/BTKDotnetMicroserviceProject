@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JnowZC0Byojwcy+6fkuerGcMW0XJ0qFZxShQhZNt/ag=",
+  "Hash": "n5Vo52F2/tDbKoUzn7gi09RDeuAAhspHaHOtAu9qzWk=",
   "Source": "BtkAkademi.Web",
   "BasePath": "_content/BtkAkademi.Web",
   "Mode": "Default",
@@ -1190,12 +1190,12 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\panertikkar.jpg",
+      "Identity": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\panertikka.jpg",
       "SourceId": "BtkAkademi.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\",
       "BasePath": "_content/BtkAkademi.Web",
-      "RelativePath": "Uploads/panertikkar.jpg",
+      "RelativePath": "Uploads/panertikka.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,15 +1204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\panertikkar.jpg"
+      "OriginalItemSpec": "wwwroot\\Uploads\\panertikka.jpg"
     },
     {
-      "Identity": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\pavbaji.jpg",
+      "Identity": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\pavbhaji.jpg",
       "SourceId": "BtkAkademi.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\",
       "BasePath": "_content/BtkAkademi.Web",
-      "RelativePath": "Uploads/pavbaji.jpg",
+      "RelativePath": "Uploads/pavbhaji.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,7 +1221,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\pavbaji.jpg"
+      "OriginalItemSpec": "wwwroot\\Uploads\\pavbhaji.jpg"
     },
     {
       "Identity": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\sweetpie.jpg",
@@ -1239,23 +1239,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\sweetpie.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\Uploads\\uefa-champions-league.gif",
-      "SourceId": "BtkAkademi.Web",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\",
-      "BasePath": "_content/BtkAkademi.Web",
-      "RelativePath": "Uploads/uefa-champions-league.gif",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\uefa-champions-league.gif"
     }
   ]
 }
