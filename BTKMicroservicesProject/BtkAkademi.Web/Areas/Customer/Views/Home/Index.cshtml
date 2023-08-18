@@ -47,7 +47,7 @@
     let conn;
 
     (function setupConnection() {
-        var connection = new signalR.HubConnectionBuilder().withUrl("/messagehub").build();
+        var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:44353/messagehub").build();
 
         connection.on("messageToUser", function (message, user) {
 
@@ -69,7 +69,10 @@
             connId: conn.connectionId,
             content: input.value
         };
-        conn.invoke("SendMessageToAdmin", message.content, message.connId).catch(function (err) {
+        conn.invoke("SendMessageToAdmin", {
+            MessageContent: message.content, 
+            clientConnectionId:message.connId})
+            .catch(function (err) {
             return console.error(err.toString());
         });
     });

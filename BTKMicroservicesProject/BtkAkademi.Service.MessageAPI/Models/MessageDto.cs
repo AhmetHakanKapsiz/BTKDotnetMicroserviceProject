@@ -1,9 +1,8 @@
 ﻿namespace BtkAkademi.Service.MessageAPI.Models
 {
-    public class AdminMessage
+    public class MessageDto
     {
-        public Guid Id { get; set; }
-        public string Message { get; set; }
+        public string MessageContent { get; set; }
         public string clientConnectionId { get; set; }
     }
 }

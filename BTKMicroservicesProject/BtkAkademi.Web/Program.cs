@@ -12,10 +12,12 @@ builder.Services.AddHttpClient<ICouponService, CouponService>();
 SD.ProductAPIBase = builder.Configuration["ServiceUrls:ProductAPI"];
 SD.ShoppingCartAPIBase = builder.Configuration["ServiceUrls:ShoppingCartAPI"];
 SD.CouponAPIBase = builder.Configuration["ServiceUrls:CouponAPI"];
+SD.MessageAPIBase = builder.Configuration["ServiceUrls:MessageAPI"];
 
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<ICouponService, CouponService>();
+//builder.Services.AddScoped<IMessageService, MessageService>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR();
 
@@ -60,7 +62,7 @@ app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapHub<MessageHub>("/messagehub");
+    //endpoints.MapHub<MessageHub>("/messagehub");
     endpoints.MapControllerRoute(
         name: "default",
         pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
