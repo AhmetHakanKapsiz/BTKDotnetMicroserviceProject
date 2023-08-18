@@ -4,5 +4,6 @@
     {
         public string MessageContent { get; set; }
         public string clientConnectionId { get; set; }
+        public string? adminConnectionId { get; set; }
     }
 }

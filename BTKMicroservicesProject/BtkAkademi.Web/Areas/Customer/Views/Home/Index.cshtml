@@ -34,7 +34,9 @@
     </div>
 </form>
 
-<div id="messages"></div>
+<div id="messages">
+
+</div>
 <form id="message-form">
     <input type="text" placeholder="Mesaj Gönder"/>
     <button type="button">Gönder</button>
@@ -42,6 +44,7 @@
 
 <script src="~/js/signalr/dist/browser/signalr.js" type="text/javascript"></script>
 <script>
+    let messageDiv = document.querySelector("#messages");
     let button = document.querySelector("#message-form>button");
     let input = document.querySelector("#message-form>input");
     let conn;
@@ -49,15 +52,33 @@
     (function setupConnection() {
         var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:44353/messagehub").build();
 
-        connection.on("messageToUser", function (message, user) {
+        connection.on("newMessageToUser", function (message) {
+            const conversation = document.querySelector(`[data-conversation="${message.conversationId}"]`);
+            if (conversation) {
+                conversation.innerHTML += `<div>
+                                <span>User-${message.clientConnectionId}: </span>
+                                    <span> ${message.messageContent}</span>
+                                    </div>`;
+            }
+            else {
+                const newConversation = `<div data-conversation="${message.conversationId}">
+                                <h4>Conversation-${message.conversationId} Messages</h4>
+                                    <div>
+                                        <span>User-${message.clientConnectionId}:</span>
+                                        <span>${message.messageContent}</span>
+                                    </div>
+                                  <span data-conversation="${message.conversationId}">Delete Conversation</span>
+                            </div>`;
+                messageDiv.innerHTML += newConversation;
+            }
 
-            var newMessageNode = document.createElement("div");
-            newMessageNode.classList.add("col-lg-12");
-            var textnode = document.createTextNode(`${user}: ${message}`);
-            newMessageNode.appendChild(textnode);
-            var messageDiv = document.getElementById("messages");
-            messageDiv.appendChild(newMessageNode, messageDiv.firstChild);
+        });
 
+        connection.on("deleteConversation", function (conversationId) {
+            const conversation = document.querySelector(`div[data-conversation="${conversationId}"]`);
+            if(conversation){
+                conversation.remove();
+            }
         });
 
         connection.start().catch(err => console.error(err.toString())).then(response => console.log("connected"));
@@ -66,15 +87,23 @@
 
     button.addEventListener("click", async function(){
         let message = {
-            connId: conn.connectionId,
-            content: input.value
+            clientConnectionId: conn.connectionId,
+            MessageContent: input.value
         };
-        conn.invoke("SendMessageToAdmin", {
-            MessageContent: message.content, 
-            clientConnectionId:message.connId})
+        conn.invoke("SendMessageToAdmin", message)
+            .then(() => input.value = "")
             .catch(function (err) {
             return console.error(err.toString());
         });
+    });
+
+    window.addEventListener('click', async function (e) {
+        if (e.target.attributes['data-conversation'] && e.target.localName === "span") {
+            let conversationId = e.target.attributes['data-conversation'].nodeValue;
+            conn.invoke("DeleteConversation", conversationId).catch(function (err) {
+                return console.error(err.toString());
+            });
+        }
     });
 
 </script>

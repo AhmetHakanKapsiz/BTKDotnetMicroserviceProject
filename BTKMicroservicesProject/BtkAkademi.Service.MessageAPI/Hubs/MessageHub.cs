@@ -15,6 +15,24 @@ namespace BtkAkademi.Service.MessageAPI.Hubs
         {
             Message message = await _repository.CreateMessage(messageDto);
             await Clients.All.SendAsync("newMessageToAdmin", message);
+            await Clients
+                .Client(message.clientConnectionId)
+                .SendAsync("newMessageToUser", message);
+        }
+
+        public async Task SendMessageToUser(MessageDto messageDto)
+        {
+            Message message = await _repository.CreateMessage(messageDto);
+            await Clients.All.SendAsync("newMessageToUser", message);
+            await Clients
+                .Client(message.clientConnectionId)
+                .SendAsync("newMessageToUser", message);
+        }
+
+        public async Task DeleteConversation(string conversationId)
+        {
+            await _repository.DeleteConversation(Guid.Parse(conversationId));
+            await Clients.All.SendAsync("deleteConversation", conversationId);
         }
     }
 }

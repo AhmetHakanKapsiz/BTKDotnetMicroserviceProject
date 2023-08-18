@@ -50,7 +50,7 @@ namespace BtkAkademi.Service.MessageAPI.Repository
         {
             var messages = await _context.Messages.Where(m => m.ConversationId == conversationId).ToListAsync();
             _context.RemoveRange(messages);
-
+            _context.SaveChanges();
         }
     }
 }
