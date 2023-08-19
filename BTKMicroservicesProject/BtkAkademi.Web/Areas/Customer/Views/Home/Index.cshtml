@@ -74,6 +74,32 @@
 
         });
 
+        connection.on("newMessageToUserFromAdmin", function (message) {
+            const conversation = document.querySelector(`[data-conversation="${message.conversationId}"]`);
+            if (conversation) {
+                conversation.innerHTML += `<div>
+                                        <span>User-${message.adminConnectionId}: </span>
+                                            <span> ${message.messageContent}</span>
+                                            </div>`;
+            }
+            else {
+                const newConversation = `<div data-conversation="${message.conversationId}">
+                                        <h4>Conversation-${message.conversationId} Messages</h4>
+                                            <div>
+                                                <span>User-${message.adminConnectionId}:</span>
+                                                <span>${message.messageContent}</span>
+                                            </div>
+                                            <form>
+                                                <input type="text" placeholder="Mesaj Gönder" />
+                                                <button type="button">Gönder</button>
+                                            </form>
+                                            <span data-conversation="${message.conversationId}">Delete Conversation</span>
+                                    </div>`;
+                messageDiv.innerHTML += newConversation;
+            }
+
+        });
+
         connection.on("deleteConversation", function (conversationId) {
             const conversation = document.querySelector(`div[data-conversation="${conversationId}"]`);
             if(conversation){

@@ -69,6 +69,31 @@
 
         });
 
+        connection.on("newMessageToAdminFromAdmin", function (message) {
+            const conversation = document.querySelector(`[data-conversation="${message.conversationId}"]`);
+            if (conversation) {
+                conversation.innerHTML += `<div>
+                                    <span>User-${message.adminConnectionId}: </span>
+                                        <span> ${message.messageContent}</span>
+                                        </div>`;
+            }
+            else {
+                const newConversation = `<div data-conversation="${message.conversationId}">
+                                    <h4>Conversation-${message.conversationId} Messages</h4>
+                                        <div>
+                                            <span>User-${message.adminConnectionId}:</span>
+                                            <span>${message.messageContent}</span>
+                                        </div>
+                                        <form>
+                                            <input type="text" placeholder="Mesaj Gönder" />
+                                            <button type="button">Gönder</button>
+                                        </form>
+                                        <span data-conversation="${message.conversationId}">Delete Conversation</span>
+                                </div>`;
+                messageDiv.innerHTML += newConversation;
+            }
+
+        });
         connection.on("deleteConversation", function (conversationId) {
             const conversation = document.querySelector(`div[data-conversation="${conversationId}"]`);
             if (conversation) {
@@ -89,16 +114,17 @@
             });
         }
 
-        if (e.target.parentElemenet.parentElement.attributes['data-conversation'] 
+        if (e.target.parentElement.parentElement.attributes['data-conversation'] 
             && e.target.localName === "button") {
-            let conversationId = e.target.parentElemenet.parentElement.attributes['data-conversation'];
+            let conversationId = e.target
+                .parentElement.parentElement.attributes['data-conversation'].nodeValue;
             let message = {
                 adminConnectionId: conn.connectionId,
                 conversationId: conversationId,
-                MessageContent: input.value
+                MessageContent: e.target.parentElement.querySelector('input').value
             };
             conn.invoke("SendMessageToUser", message)
-                .then(() => input.value = "")
+                .then(() => e.target.parentElement.querySelector('input').value = "")
                 .catch(function (err) {
                     return console.error(err.toString());
             });
