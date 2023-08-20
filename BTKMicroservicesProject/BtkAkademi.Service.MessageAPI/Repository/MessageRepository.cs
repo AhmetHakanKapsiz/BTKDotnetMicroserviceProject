@@ -7,10 +7,11 @@ namespace BtkAkademi.Service.MessageAPI.Repository
     public class MessageRepository : IMessageRepository
     {
         private ApplicationDbContext _context;
-        public MessageRepository(ApplicationDbContext context) { 
+        public MessageRepository(ApplicationDbContext context)
+        {
             _context = context;
         }
-
+        /*
         public async Task<Message> CreateAdminMessage(AdminMessageDto adminMessageDto)
         {
             var messages = await _context.Messages
@@ -34,36 +35,48 @@ namespace BtkAkademi.Service.MessageAPI.Repository
             await _context.SaveChangesAsync();
 
             return message;
-        }
+        }*/
 
         public async Task<Message> CreateMessage(MessageDto messageDto)
         {
-            var messages = _context.Messages
-                .Where(m => m.clientConnectionId == messageDto.clientConnectionId)
-                .ToList();
             Message message;
-            if (messages.Count > 0)
+
+            if (messageDto.IsAdmin)
             {
                 message = new Message
                 {
-                    ConversationId = messages[0].ConversationId,
-                    clientConnectionId = messageDto.clientConnectionId,
-                    adminConnectionId = messages[messages.Count - 1].adminConnectionId,
+                    ConversationId = Guid.Parse(messageDto.ConversationId),
+                    ClientConnectionId = messageDto.ClientConnectionId,
+                    Datetime = DateTime.Now,
                     MessageContent = messageDto.MessageContent,
-                    dateTime = DateTime.Now
+                    IsAdmin = true
                 };
 
             }
             else
             {
-                message = new Message
+                if (messageDto.ConversationId != null)
                 {
-                    ConversationId = Guid.NewGuid(),
-                    clientConnectionId = messageDto.clientConnectionId,
-                    adminConnectionId = null,
-                    MessageContent = messageDto.MessageContent,
-                    dateTime = DateTime.Now
-                };
+                    message = new Message
+                    {
+                        ConversationId = Guid.Parse(messageDto.ConversationId),
+                        ClientConnectionId = messageDto.ClientConnectionId,
+                        MessageContent = messageDto.MessageContent,
+                        Datetime = DateTime.Now,
+                        IsAdmin = false
+                    };
+                }
+                else
+                {
+                    message = new Message
+                    {
+                        ConversationId = Guid.NewGuid(),
+                        ClientConnectionId = messageDto.ClientConnectionId,
+                        MessageContent = messageDto.MessageContent,
+                        Datetime = DateTime.Now,
+                        IsAdmin = false
+                    };
+                }
             }
 
             _context.Add(message);
@@ -71,9 +84,19 @@ namespace BtkAkademi.Service.MessageAPI.Repository
             return message;
         }
 
+        public async Task<string> GetUserIdByMessage(Message message)
+        {
+            var messages = await _context.Messages
+                .Where(m => m.ConversationId == message.ConversationId)
+                .ToListAsync();
+            return messages[0].ClientConnectionId;
+        }
+
         public async Task DeleteConversation(Guid conversationId)
         {
-            var messages = await _context.Messages.Where(m => m.ConversationId == conversationId).ToListAsync();
+            var messages = await _context.Messages
+                .Where(m => m.ConversationId == conversationId)
+                .ToListAsync();
             _context.RemoveRange(messages);
             _context.SaveChanges();
         }

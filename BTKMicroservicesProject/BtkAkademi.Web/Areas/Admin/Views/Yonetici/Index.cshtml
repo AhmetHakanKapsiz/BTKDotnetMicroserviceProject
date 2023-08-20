@@ -20,8 +20,9 @@
                 }
                 @foreach (var message in messages)
                 {
+                    var userType = message.IsAdmin ? "Admin" : "User";
                     <div>
-                        <span>User-@message.clientConnectionId:</span>
+                        <span>@userType-@message.ClientConnectionId:</span>
                         <span>@message.MessageContent</span>
                     </div>
                 }
@@ -73,7 +74,7 @@
             const conversation = document.querySelector(`[data-conversation="${message.conversationId}"]`);
             if (conversation) {
                 conversation.innerHTML += `<div>
-                                    <span>User-${message.adminConnectionId}: </span>
+                                    <span>Admin-${message.clientConnectionId}: </span>
                                         <span> ${message.messageContent}</span>
                                         </div>`;
             }
@@ -81,7 +82,7 @@
                 const newConversation = `<div data-conversation="${message.conversationId}">
                                     <h4>Conversation-${message.conversationId} Messages</h4>
                                         <div>
-                                            <span>User-${message.adminConnectionId}:</span>
+                                            <span>User-${message.clientConnectionId}:</span>
                                             <span>${message.messageContent}</span>
                                         </div>
                                         <form>
@@ -119,9 +120,10 @@
             let conversationId = e.target
                 .parentElement.parentElement.attributes['data-conversation'].nodeValue;
             let message = {
-                adminConnectionId: conn.connectionId,
-                conversationId: conversationId,
-                MessageContent: e.target.parentElement.querySelector('input').value
+                ClientConnectionId: conn.connectionId,
+                ConversationId: conversationId,
+                MessageContent: e.target.parentElement.querySelector('input').value,
+                IsAdmin: true
             };
             conn.invoke("SendMessageToUser", message)
                 .then(() => e.target.parentElement.querySelector('input').value = "")

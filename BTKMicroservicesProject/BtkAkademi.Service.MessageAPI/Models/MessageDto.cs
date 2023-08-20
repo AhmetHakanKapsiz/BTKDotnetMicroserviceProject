@@ -2,8 +2,9 @@
 {
     public class MessageDto
     {
-        public string MessageContent { get; set; }
-        public string clientConnectionId { get; set; }
-        public string? adminConnectionId { get; set; }
+        public string ConversationId { get; set; }
+        public string? MessageContent { get; set; }
+        public string? ClientConnectionId { get; set; }
+        public bool IsAdmin { get; set; }
     }
 }

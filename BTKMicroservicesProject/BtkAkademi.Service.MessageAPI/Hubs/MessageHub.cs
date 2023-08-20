@@ -16,18 +16,19 @@ namespace BtkAkademi.Service.MessageAPI.Hubs
             Message message = await _repository.CreateMessage(messageDto);
             await Clients.All.SendAsync("newMessageToAdmin", message);
             await Clients
-                .Client(message.clientConnectionId)
+                .Client(message.ClientConnectionId)
                 .SendAsync("newMessageToUser", message);
         }
-
-        public async Task SendMessageToUser(AdminMessageDto adminMessageDto)
+        
+        public async Task SendMessageToUser(MessageDto messageDto)
         {
-            Message message = await _repository.CreateAdminMessage(adminMessageDto);
+            Message message = await _repository.CreateMessage(messageDto);
+            string userConnectionId = await _repository.GetUserIdByMessage(message);
             await Clients
-                .Client(message.adminConnectionId)
+                .Client(message.ClientConnectionId)
                 .SendAsync("newMessageToAdminFromAdmin", message);
             await Clients
-                .Client(message.clientConnectionId)
+                .Client(userConnectionId)
                 .SendAsync("newMessageToUserFromAdmin", message);
         }
 

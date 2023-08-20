@@ -78,7 +78,7 @@
             const conversation = document.querySelector(`[data-conversation="${message.conversationId}"]`);
             if (conversation) {
                 conversation.innerHTML += `<div>
-                                        <span>User-${message.adminConnectionId}: </span>
+                                        <span>Admin-${message.clientConnectionId}: </span>
                                             <span> ${message.messageContent}</span>
                                             </div>`;
             }
@@ -86,7 +86,7 @@
                 const newConversation = `<div data-conversation="${message.conversationId}">
                                         <h4>Conversation-${message.conversationId} Messages</h4>
                                             <div>
-                                                <span>User-${message.adminConnectionId}:</span>
+                                                <span>Admin-${message.clientConnectionId}:</span>
                                                 <span>${message.messageContent}</span>
                                             </div>
                                             <form>
@@ -112,9 +112,16 @@
     })();
 
     button.addEventListener("click", async function(){
+        let conversationId = null;
+        const conversationDiv = document.querySelector(`[data-conversation]`);
+        if(conversationDiv){
+            conversationId = conversationDiv.attributes['data-conversation'].nodeValue;
+        }
         let message = {
-            clientConnectionId: conn.connectionId,
-            MessageContent: input.value
+            ClientConnectionId: conn.connectionId,
+            MessageContent: input.value,
+            ConversationId: conversationId,
+            IsAdmin: false
         };
         conn.invoke("SendMessageToAdmin", message)
             .then(() => input.value = "")
