@@ -2,8 +2,8 @@
 
 namespace BtkAkademi.Web.Services.IServices
 {
-    public interface IMessageService
+    public interface IMessageService : IBaseService
     {
-        Task<List<T>> GetMessages<T>();
+        Task<T> GetMessages<T>(string token);
     }
 }

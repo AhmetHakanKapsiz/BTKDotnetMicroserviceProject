@@ -17,7 +17,7 @@ SD.MessageAPIBase = builder.Configuration["ServiceUrls:MessageAPI"];
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<ICouponService, CouponService>();
-//builder.Services.AddScoped<IMessageService, MessageService>();
+builder.Services.AddScoped<IMessageService, MessageService>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR();
 

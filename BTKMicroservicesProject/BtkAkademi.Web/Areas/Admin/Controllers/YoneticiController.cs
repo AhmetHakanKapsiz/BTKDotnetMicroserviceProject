@@ -9,12 +9,13 @@ namespace BtkAkademi.Web.Areas.Admin.Controllers
     [Area("Admin")]
     public class YoneticiController : Controller
     {
-        /*private MessageService messageService;
-        public YoneticiController(MessageService messageService)
+        private IMessageService _messageService;
+        public YoneticiController(IMessageService messageService)
         {
-            this.messageService = messageService;
-        }*/
-        public async Task<IActionResult> Index()
+            _messageService = messageService;
+        }
+
+        /*public async Task<IActionResult> Index()
         {
             List<Message> messageList = new List<Message>();
             //rest apiye talepte bulunacak nesnemiz
@@ -28,6 +29,18 @@ namespace BtkAkademi.Web.Areas.Admin.Controllers
                 }
             }
             return View(messageList);
+        }*/
+
+        public async Task<IActionResult> Index()
+        {
+            List<Message> list = new();
+            //var accessToken = await HttpContext.GetTokenAsync("access_token");
+            var response = await _messageService.GetMessages<ResponseDto>("");
+            if (response != null && response.IsSuccess)
+            {
+                list = JsonConvert.DeserializeObject<List<Message>>(Convert.ToString(response.Result));
+            }
+            return View(list);
         }
 
         public IActionResult Git()

@@ -3,7 +3,7 @@ using BtkAkademi.Web.Services.IServices;
 
 namespace BtkAkademi.Web.Services
 {
-    public class MessageService : BaseService
+    public class MessageService : BaseService, IMessageService
     {
         private readonly IHttpClientFactory _clientFactory;
 
@@ -11,14 +11,15 @@ namespace BtkAkademi.Web.Services
         {
             _clientFactory = clientFactory;
         }
-        public async Task<T> GetMessages<T>()
+        public async Task<T> GetMessages<T>(string token)
         {
             return await this.SendAsync<T>(new ApiRequest()
             {
                 ApiType = SD.ApiType.GET,
-                Url = SD.MessageAPIBase + "/api/messages/",
-                AccessToken = ""
+                Url = SD.MessageAPIBase + "/api/messages",
+                AccessToken = token
             });
         }
+
     }
 }

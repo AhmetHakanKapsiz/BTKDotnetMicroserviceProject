@@ -13,6 +13,18 @@
 
         foreach (var item in conversations)
         {
+            <div class="card" style="width: 18rem;" data-conversation="@item">
+                <div class="card-body">
+                    <h5 class="card-title">Conversation</h5>
+                    <p class="card-text">Conversation Id: @item </p>
+                    <button class="btn btn-primary mt-2 open-conv-btn">Open Conversation</button>
+                    <button class="btn btn-primary mt-2 delete-conv-btn">Delete Conversation</button>
+                </div>
+            </div>
+        }
+        
+        foreach (var item in conversations)
+        {
             <div data-conversation="@item">
                 <h4>Conversation-@item Messages</h4>
                 @{
@@ -33,6 +45,22 @@
                 <span data-conversation="@item">Delete Conversation</span>
             </div>
         }
+        /*
+        <div class="message-box">
+            <div class="message-box-operation">
+                <span class="user-typing"></span>
+                <span class="close-message-box">X</span>
+            </div>
+            <div class="message-container">
+                <div class="message message-right">
+                    <p>Admin: Hoşgeldiniz. Nasıl yardımcı olabilirim?</p>
+                </div>
+            </div>
+            <div class="message-sender">
+                <input type="text" placeholder="Mesaj Gönder">
+                <button type="button">Gönder</button>
+            </div>
+        </div>*/
     }
 </div>
 

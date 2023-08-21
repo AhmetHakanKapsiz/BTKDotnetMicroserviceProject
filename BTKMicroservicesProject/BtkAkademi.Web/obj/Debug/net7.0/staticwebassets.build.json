@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T7P0mbuZ/AC8kmnolT5cH3MHS2v2pTaHh7gsobqeIvE=",
+  "Hash": "MU8YZYIxHbb+Bv9KcsxyDlJP/pSq0LBy/csMr5Nt0W4=",
   "Source": "BtkAkademi.Web",
   "BasePath": "_content/BtkAkademi.Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BtkAkademi.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\css\\message-box.css",
+      "SourceId": "BtkAkademi.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\",
+      "BasePath": "_content/BtkAkademi.Web",
+      "RelativePath": "css/message-box.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\message-box.css"
     },
     {
       "Identity": "C:\\Users\\AHMET HAKAN\\Documents\\btkakademi\\BTKDotnetMicroserviceProject\\BTKMicroservicesProject\\BtkAkademi.Web\\wwwroot\\css\\site.css",
